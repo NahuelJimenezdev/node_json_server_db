@@ -1,0 +1,67 @@
+{
+  "profesores": [
+    {
+      "nombre": "Profesor 1",
+      "apellido": "Apellido 1",
+      "materias": [
+        {
+          "nombre": "Matemáticas"
+        },
+        {
+          "nombre": "Literatura"
+        }
+      ],
+      "id": "71f6"
+    },
+    {
+      "id": "add2",
+      "nombre": "Erik",
+      "apellido": "Noguera",
+      "materias": [
+        {
+          "nombre": "Locución"
+        },
+        {
+          "nombre": "Radio"
+        },
+        {
+          "nombre": "Guitarra"
+        }
+      ]
+    }
+  ],
+  "alumnos": [
+    {
+      "nombre": "Maria",
+      "apellido": "Rodriguez",
+      "promedio": 8,
+      "id": "d687"
+    },
+    {
+      "nombre": "sandro",
+      "apellido": "Maica",
+      "promedio": 9,
+      "id": "6fa0"
+    }
+  ],
+  "curso": [
+    {
+      "nombre": "NodeJs desde cero",
+      "duracion": 7,
+      "dificultad": "intermedio",
+      "id": "7b60"
+    },
+    {
+      "nombre": "ReactJs desde cero",
+      "duracion": 7,
+      "dificultad": "intermedio",
+      "id": "65fa"
+    },
+    {
+      "nombre": "Angular 17 desde cero",
+      "duracion": 7,
+      "dificultad": "alta",
+      "id": "5d0f"
+    }
+  ]
+}

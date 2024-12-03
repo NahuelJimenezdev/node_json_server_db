@@ -1,0 +1,22 @@
+{
+  "name": "07_nodejs",
+  "version": "0.0.1",
+  "description": "Proyectos de los primeros pasos con NodeJs - Aprendiendo con SergioCode",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node app.js",
+    "startjson": "json-server --watch 01_json-server/db.json",
+    "dev": "nodemon app.js"
+  },
+  "author": "Nahuel Jimenez",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "env-var": "^7.5.0",
+    "json-server": "^1.0.0-beta.3"
+  }
+}
