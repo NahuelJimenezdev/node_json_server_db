@@ -38,8 +38,10 @@
 
 // 05
 // contenido 03_web-server-moderno
-import { envs } from './03_web-server-moderno/config/env.js'// a diferencia de lo forma antigua, aqui hay que agregar el tipo de archico en este caso es .js
-import { startServer } from './03_web-server-moderno/server/server.js'// a diferencia de lo forma antigua, aqui hay que agregar el tipo de archico en este caso es .js
+import { envs } from './03_web-server-moderno/config/env.js'
+// a diferencia de lo forma antigua, aqui hay que agregar el tipo de archico en este caso es .js
+import { startServer } from './03_web-server-moderno/server/server.js'
+// a diferencia de lo forma antigua, aqui hay que agregar el tipo de archico en este caso es .js
 
 const main = () => {
   startServer({
@@ -52,6 +54,6 @@ const main = () => {
 // agnóstica por que no tiene nombre
 // Autoconvocada porque la ejecutamos con los parentesis
 
-(async() => {
+(async () => {
   main()
 })()

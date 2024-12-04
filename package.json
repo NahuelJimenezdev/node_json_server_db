@@ -5,9 +5,9 @@
   "main": "app.js",
   "type": "module",
   "scripts": {
-    "start": "node app.js",
+    "start": "node 04_proyecto_node_crud/src/app.js",
     "startjson": "json-server --watch 01_json-server/db.json",
-    "dev": "nodemon app.js"
+    "dev": "nodemon 04_proyecto_node_crud/src/app.js"
   },
   "author": "Nahuel Jimenez",
   "license": "ISC",
