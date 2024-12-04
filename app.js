@@ -26,8 +26,14 @@
 // 04
 // contenido 02_web-server
 
+const { envs } = require('./02_web-server/config/env')
+const { startServer } = require('./02_web-server/server/server')
+
 const main = () => {
-  console.log("Hola Mundo desde main");
+  startServer({
+    port: envs.PORT,
+    public_path: envs.PUBLIC_PATH,
+  })
 }
 
 // funcion agnóstica autoconvocada
