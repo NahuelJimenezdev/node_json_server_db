@@ -26,8 +26,20 @@
 // 04
 // contenido 02_web-server
 
-const { envs } = require('./02_web-server/config/env')
-const { startServer } = require('./02_web-server/server/server')
+// const { envs } = require('./02_web-server/config/env')
+// const { startServer } = require('./02_web-server/server/server')
+
+// const main = () => {
+//   startServer({
+//     port: envs.PORT,
+//     public_path: envs.PUBLIC_PATH,
+//   })
+// }
+
+// 05
+// contenido 03_web-server-moderno
+import { envs } from './03_web-server-moderno/config/env.js'// a diferencia de lo forma antigua, aqui hay que agregar el tipo de archico en este caso es .js
+import { startServer } from './03_web-server-moderno/server/server.js'// a diferencia de lo forma antigua, aqui hay que agregar el tipo de archico en este caso es .js
 
 const main = () => {
   startServer({
