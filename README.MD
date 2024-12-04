@@ -29,7 +29,8 @@ Para ejecutar el proyecto, sigue estos pasos:
 2.  Instala las dependencias:
     
     ```bash
-    npm install```
+    npm install
+    ```
     
 3.  Inicia el servidor:
     
