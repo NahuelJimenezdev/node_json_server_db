@@ -22,3 +22,18 @@
 // console.log(process.env.PORT);
 // console.log(process.env.DB_USER);
 // console.log(process.env.DB_PASS);
+
+// 04
+// contenido 02_web-server
+
+const main = () => {
+  console.log("Hola Mundo desde main");
+}
+
+// funcion agnóstica autoconvocada
+// agnóstica por que no tiene nombre
+// Autoconvocada porque la ejecutamos con los parentesis
+
+(async() => {
+  main()
+})()
