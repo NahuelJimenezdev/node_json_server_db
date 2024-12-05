@@ -10,14 +10,28 @@ Este proyecto es un paso a paso del aprendizaje del autor sobre la creación de 
 
 - **Node.js**: Entorno de ejecución para JavaScript.
 - **Express**: Framework para crear servidores web en Node.js.
+- **Mongoose**: Biblioteca para modelar datos en MongoDB.
 - **json-server**: Herramienta para crear un servidor REST API basado en un archivo JSON.
+- **dotenv**: Paquete para manejar variables de entorno.
+- **env-var**: Paquete para validar y tipar variables de entorno.
+- **Body-parser**: Middleware para manejar datos en el cuerpo de las solicitudes.
+
 
 ## Estructura del Proyecto
 
-- **`00_primeros_pasos/`**: Configuración inicial y primeros pasos.
+- **`00_primeros_pasos/`**: Contiene la configuración inicial y ejemplos básicos de Node.js.
 - **`01_json-server/`**: Implementación de `json-server` para crear una API REST.
 - **`02_web-server/`**: Configuración de un servidor Express que interactúa con `json-server`.
-- **`public/`**: Archivos estáticos servidos por el servidor.
+- **`03_web-server-moderno/`**: Implementación de un servidor Express moderno utilizando módulos ES6.
+- **`04_proyecto_node_crud/`**: Proyecto CRUD para gestionar libros utilizando Express y MongoDB.
+  - **`src/app.js`**: Archivo principal que inicia el servidor y conecta a la base de datos.
+  - **`src/models/book.model.js`**: Modelo de Mongoose para los libros.
+  - **`src/routes/book.routes.js`**: Rutas para manejar las operaciones CRUD de los libros.
+- **`public/`**: Archivos estáticos servidos por el servidor, incluyendo HTML, CSS y JavaScript.
+- **`.env`**: Archivo de configuración para variables de entorno.
+- **`.gitignore`**: Archivos y carpetas que deben ser ignorados por Git.
+- **`docker-compose.yml`**: Configuración para ejecutar el proyecto en un contenedor Docker.
+
 ```
 ## Instalación
 
